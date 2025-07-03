@@ -3,7 +3,7 @@
 client_id = "cb7a2c324303b9c752a3423d6c9e23ae"
 name = "SiteBoss OWL"
 handle = "siteboss-owl-shpfy-app-1"
-application_url = "https://spread-expansion-vacuum-paper.trycloudflare.com"
+application_url = "https://scholars-poster-scenic-journalist.trycloudflare.com"
 embedded = true
 
 [build]
@@ -18,7 +18,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://spread-expansion-vacuum-paper.trycloudflare.com/auth/callback", "https://spread-expansion-vacuum-paper.trycloudflare.com/auth/shopify/callback", "https://spread-expansion-vacuum-paper.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://scholars-poster-scenic-journalist.trycloudflare.com/auth/callback", "https://scholars-poster-scenic-journalist.trycloudflare.com/auth/shopify/callback", "https://scholars-poster-scenic-journalist.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

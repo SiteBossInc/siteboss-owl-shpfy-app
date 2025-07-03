@@ -1,0 +1,24 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "cb7a2c324303b9c752a3423d6c9e23ae"
+name = "SiteBoss OWL"
+handle = "siteboss-owl-shpfy-app-1"
+application_url = "https://spread-expansion-vacuum-paper.trycloudflare.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-07"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = ["https://spread-expansion-vacuum-paper.trycloudflare.com/auth/callback", "https://spread-expansion-vacuum-paper.trycloudflare.com/auth/shopify/callback", "https://spread-expansion-vacuum-paper.trycloudflare.com/api/auth/callback"]
+
+[pos]
+embedded = false
